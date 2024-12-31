@@ -3,10 +3,10 @@
 
 
 # Finding function
-def arch(m, V, po):
-    if po > 1:
+def arch(m:float, V:float, po:float) -> str:
+    if po > 1000:
         print("Предмет не плавает")
-    elif po == 1:
+    elif po == 1000:
         print("Предмет вроде плавает")
     else:
         print("Предмет плавает")
